@@ -4,8 +4,8 @@ Discover and explore a vast collection of global movies from themoviedb.org. Eas
 
 ## Checklist 
 
-- [ ] Setup source
-- [ ] Add navigation
+- [x] Setup source
+- [x] Add navigation
 - [ ] Add base Home Screen
 - [ ] Add base Detail Screen
 
