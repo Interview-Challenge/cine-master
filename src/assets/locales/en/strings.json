@@ -1,0 +1,8 @@
+{
+  "ALERT": {
+    "NETWORK_ERROR": {
+      "TITLE": "Network Error",
+      "MESSAGE": "Something went wrong with your network!"
+    }
+  }
+}
