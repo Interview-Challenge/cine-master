@@ -1,11 +1,11 @@
 import React from 'react';
-import {Text} from 'react-native';
 import CFlex from '@/components/layout/CFlex.tsx';
+import HomeHeader from '@/screens/Home/components/Home.Header.tsx';
 
 const Home = () => {
   return (
     <CFlex>
-      <Text>Home</Text>
+      <HomeHeader />
     </CFlex>
   );
 };
