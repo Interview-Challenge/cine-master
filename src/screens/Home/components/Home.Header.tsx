@@ -16,12 +16,6 @@ const HomeHeader = () => {
         />
         <CText marginL={'s'}>Hi, Guest</CText>
       </View>
-      <View style={styles.right}>
-        <SolidIcons.MagnifyingGlassIcon
-          size={ICON_SIZE}
-          color={Colors.primaryIconColor}
-        />
-      </View>
     </View>
   );
 };

@@ -4,5 +4,8 @@
       "TITLE": "Network Error",
       "MESSAGE": "Something went wrong with your network!"
     }
+  },
+  "SEARCH": {
+    "INPUT_PLACEHOLDER": "Search movies, genres,..."
   }
 }
