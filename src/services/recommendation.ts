@@ -8,3 +8,11 @@ export const getPopularMovies = () =>
       page: 1,
     },
   });
+
+export const getTopRatedMovies = () =>
+  axiosInstance.get(ENDPOINTS.MOVIES.RECOMMENDATION.GET_TOP_RATED, {
+    params: {
+      language: 'en-US',
+      page: 1,
+    },
+  });
