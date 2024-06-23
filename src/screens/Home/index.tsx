@@ -18,6 +18,7 @@ const HOME_LAYOUT = [
   BLOCK_TYPE.POPULAR,
 ];
 
+// TODO: Handle search function
 const Home = () => {
   const data = useSelector(state => get(state, ['recommendation'], []));
   useMovieBlockRequest();
