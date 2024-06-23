@@ -1,10 +1,8 @@
-// Imports may need to be adjusted depending on your project setup
 import React from 'react';
 import {render, cleanup} from '@testing-library/react-native';
 
 import CText from '@/components/common/CText';
 
-// Clean up on exiting
 afterEach(cleanup);
 
 describe('CText', () => {

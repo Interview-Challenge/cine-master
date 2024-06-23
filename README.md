@@ -9,9 +9,20 @@ Discover and explore a vast collection of global movies from themoviedb.org. Eas
 - [x] Add base Home Screen
 - [x] Add base Detail Screen
 - [ ] Search Function
+- [ ] Atom testing (CButton, CSearchInput, CText)
+- [ ] Detox testing for Search Function
 
 ## Usage
 ### Setup
 ```
 yarn nuke && yarn && yarn pod:install
+```
+
+### Run
+```
+yarn ios
+```
+or
+```
+yarn android
 ```

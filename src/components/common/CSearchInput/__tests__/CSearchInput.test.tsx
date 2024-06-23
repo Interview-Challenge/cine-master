@@ -3,7 +3,6 @@ import {render, fireEvent} from '@testing-library/react-native';
 import CSearchInput, {
   ICSearchInputProps,
 } from '@/components/common/CSearchInput';
-// Note: import explicitly to use the types shipped with jest.
 
 describe('<CSearchInput />', () => {
   let props: ICSearchInputProps;
