@@ -1,5 +1,5 @@
 import React from 'react';
-import {Text, StyleSheet, StyleProp, TextProps} from 'react-native';
+import {Text, StyleSheet, TextProps} from 'react-native';
 import Colors from '@/assets/colors.ts';
 import {destructureLayoutProps} from '@/assets/styles/spacing.ts';
 import {

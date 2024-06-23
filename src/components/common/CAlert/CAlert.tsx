@@ -4,8 +4,8 @@ import React, {
   useEffect,
   useImperativeHandle,
   useMemo,
-  useState
-} from "react";
+  useState,
+} from 'react';
 import {
   Dimensions,
   LayoutAnimation,
