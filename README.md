@@ -6,9 +6,12 @@ Discover and explore a vast collection of global movies from themoviedb.org. Eas
 
 - [x] Setup source
 - [x] Add navigation
-- [ ] Add base Home Screen
-- [ ] Add base Detail Screen
+- [x] Add base Home Screen
+- [x] Add base Detail Screen
+- [ ] Search Function
 
-TBD
-
-## Environment
+## Usage
+### Setup
+```
+yarn nuke && yarn && yarn pod:install
+```
