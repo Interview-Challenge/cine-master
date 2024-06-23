@@ -16,3 +16,6 @@ export const getTopRatedMovies = () =>
       page: 1,
     },
   });
+
+export const getUpcomingMovies = () =>
+  axiosInstance.get(ENDPOINTS.MOVIES.RECOMMENDATION.GET_UPCOMING);

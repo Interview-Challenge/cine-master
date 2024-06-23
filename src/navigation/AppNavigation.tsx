@@ -5,10 +5,12 @@ import SCREEN_NAMES from './screens.ts';
 import Home from '../screens/Home';
 import MovieDetail from '../screens/MovieDetail';
 import Colors from '@/assets/colors.ts';
+import useAppConfiguration from '@/hooks/useAppConfiguration.ts';
 
 const AppStack = createStackNavigator<RootStackParamList>();
 
 const AppNavigation = () => {
+  useAppConfiguration();
   return (
     <AppStack.Navigator
       initialRouteName={SCREEN_NAMES.HOME}
@@ -25,6 +27,7 @@ const AppNavigation = () => {
       <AppStack.Screen
         name={SCREEN_NAMES.MOVIE_DETAIL}
         component={MovieDetail}
+        options={{headerShown: false}}
       />
     </AppStack.Navigator>
   );

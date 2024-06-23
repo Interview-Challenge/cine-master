@@ -60,6 +60,7 @@ const CSearchInput = (props: ICSearchInputProps) => {
       <TextInput
         onFocus={() => setFocused(true)}
         placeholder={placeholder}
+        onBlur={() => setFocused(false)}
         onChangeText={onChange}
         value={value}
         placeholderTextColor={Colors.neutral_7}

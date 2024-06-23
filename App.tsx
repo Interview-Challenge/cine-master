@@ -5,19 +5,17 @@ import {SafeAreaProvider} from 'react-native-safe-area-context';
 import CAlertProvider from '@/components/common/CAlert';
 import {Provider} from 'react-redux';
 import store from '@/stores/store.ts';
-import useAppConfiguration from '@/hooks/useAppConfiguration.ts';
 
 const App = () => {
-  useAppConfiguration();
   return (
-    <SafeAreaProvider>
-      <Provider store={store}>
+    <Provider store={store}>
+      <SafeAreaProvider>
         <NavigationContainer>
           <AppNavigation />
           <CAlertProvider />
         </NavigationContainer>
-      </Provider>
-    </SafeAreaProvider>
+      </SafeAreaProvider>
+    </Provider>
   );
 };
 

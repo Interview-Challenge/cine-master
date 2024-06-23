@@ -2,6 +2,7 @@ const Colors = {
   primaryBackgroundColor: '#1C1F28',
   primaryTextColor: '#FFFFFF',
   primaryIconColor: '#8567E6',
+  movieCardBackgroundColor: '#262933',
   white: '#FFFFFF',
 
   // SUCCESS SET

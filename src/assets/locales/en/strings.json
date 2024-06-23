@@ -7,5 +7,16 @@
   },
   "SEARCH": {
     "INPUT_PLACEHOLDER": "Search movies, genres,..."
+  },
+  "RECOMMENDATION": {
+    "TOP_RATED": "Top Rated",
+    "UPCOMING": "Upcoming",
+    "POPULAR": "Popular",
+    "SEE_ALL": "See all"
+  },
+  "MOVIE": {
+    "RUNTIME": "{{time}} mins",
+    "OVERVIEW": "Storyline",
+    "SIMILAR_LIST_TITLE": "Similar"
   }
 }

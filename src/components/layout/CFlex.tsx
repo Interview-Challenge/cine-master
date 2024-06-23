@@ -1,15 +1,18 @@
 import React from 'react';
-import {View, StyleSheet} from 'react-native';
+import {View, StyleSheet, ScrollView} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 
 interface CFlexProps {
   children: React.ReactNode;
+  scrollable?: boolean;
+  onScroll?: (e: any) => void;
 }
 
-const CFlex = ({children}: CFlexProps) => {
+const CFlex = ({children, scrollable = false, onScroll}: CFlexProps) => {
   const insets = useSafeAreaInsets();
+  const Wrapper = scrollable ? ScrollView : View;
   return (
-    <View
+    <Wrapper
       style={[
         styles.container,
         {
@@ -18,9 +21,11 @@ const CFlex = ({children}: CFlexProps) => {
           paddingLeft: insets.left,
           paddingRight: insets.right,
         },
-      ]}>
+      ]}
+      scrollEventThrottle={16}
+      onScroll={onScroll}>
       {children}
-    </View>
+    </Wrapper>
   );
 };
 
